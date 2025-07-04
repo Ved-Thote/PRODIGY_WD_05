@@ -25,7 +25,8 @@ This is a simple and responsive web application that fetches and displays real-t
 - Fetch API
 
 - Open-Meteo ( Weather API )
-
+  
+---
 
 ## 📸 Preview
 ---
@@ -53,6 +54,8 @@ cd weather-app
 > For this project free open-source api is used
 
 Open-meteo – for real-time weather data
+
+---
 
 ## 📌 Future Improvements
  - Forecast for upcoming days
