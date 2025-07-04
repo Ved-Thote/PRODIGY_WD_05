@@ -34,7 +34,7 @@ This is a simple and responsive web application that fetches and displays real-t
 ## 📦 How to Use
 - Clone the repository
 ```
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Ved-Thote/PRODIGY_WD_05.git
 ```
 
 - Navigate into the project folder
