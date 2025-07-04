@@ -3,6 +3,7 @@ This is a simple and responsive web application that fetches and displays real-t
 ---
 
 ## 🔗 Features
+
 - 🔍 Search weather by city name
 
 - 📍 Auto-fetch weather based on user's location
@@ -16,6 +17,7 @@ This is a simple and responsive web application that fetches and displays real-t
 ---
 
 ## 🚀 Tech Stack
+
 - HTML5
 
 - CSS3
@@ -25,31 +27,35 @@ This is a simple and responsive web application that fetches and displays real-t
 - Fetch API
 
 - Open-Meteo ( Weather API )
-  
+
 ---
 
 ## 📸 Preview
----
+
+## ![Preview](images/Screenshot%202025-07-04%20231105.png)
 
 ## 📦 How to Use
+
 - Clone the repository
+
 ```
 git clone https://github.com/Ved-Thote/PRODIGY_WD_05.git
 ```
 
 - Navigate into the project folder
+
 ```
 cd weather-app
 ```
 
 - Open the index.html file in your browser
 
-
->No additional setup needed, this is a pure frontend project.
+> No additional setup needed, this is a pure frontend project.
 
 ---
 
 ## ⚙️ API Used
+
 > [!NOTE]
 > For this project free open-source api is used
 
@@ -58,8 +64,9 @@ Open-meteo – for real-time weather data
 ---
 
 ## 📌 Future Improvements
- - Forecast for upcoming days
 
- - Dynamic background based on weather
+- Forecast for upcoming days
 
- - Voice-based input
+- Dynamic background based on weather
+
+- Voice-based input
