@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="temp-toggle" id="tempToggle">°C</button>
+
+      <div class="search-container">
+        <div class="search-box">
+          <svg
+            class="search-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+          <input
+            type="text"
+            class="search-input"
+            placeholder="New York, US"
+            id="searchInput"
+          />
+        </div>
+        <button class="refresh-btn" id="refreshBtn">
+          <svg
+            class="refresh-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <polyline points="23 4 23 10 17 10"></polyline>
+            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="weather-main" id="weatherMain">
+        <div class="loading" id="loading">Loading weather...</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

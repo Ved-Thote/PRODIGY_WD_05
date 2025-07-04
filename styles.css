@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: white;
+  color: #333;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+  color: #666;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  color: #333;
+  width: 200px;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.refresh-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.refresh-btn:hover {
+  background: #f0f0f0;
+}
+
+.refresh-icon {
+  width: 20px;
+  height: 20px;
+  color: #666;
+}
+
+.weather-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.weather-icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.weather-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.condition {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+.weather-stats {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.weatherr {
+  display: flex;
+  gap: 30px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.stat-icon {
+  width: 28px;
+  height: 28px;
+  color: #666;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+.stat-unit {
+  font-size: 14px;
+  color: #666;
+}
+
+.loading {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+}
+
+.error {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 16px;
+}
+
+.temp-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.temp-toggle:hover {
+  color: #333;
+}
